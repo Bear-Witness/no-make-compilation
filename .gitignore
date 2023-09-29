@@ -4,5 +4,9 @@
 obj/
 
 
+# random files that popup for some reason
+*~
+
+
 
 
