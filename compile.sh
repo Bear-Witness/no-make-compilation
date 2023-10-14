@@ -6,6 +6,9 @@ set -e
 echo "Compiling libraries"
 echo
 
+mkdir -p obj
+
+
 libs=$(find ./src/ -regex '.*\.c$')
 for lib in "${libs[@]}"
 do
